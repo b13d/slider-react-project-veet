@@ -1,0 +1,31 @@
+ul, li {
+  list-style-type: none;
+}
+
+.buttons {
+  padding-top: 5%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.buttons__btn {
+  padding: 15px 20px;
+  font-size: 18px;
+}
+
+.list-name-theme {
+  font-weight: 800;
+}
+
+.list-name {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}

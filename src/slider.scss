@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+.slider {
+  padding-top: 5%;
+  gap: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 40px;
+
+  &::after {
+    content: "\261E";
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    &::after {
+      content: "\261B";
+    }
+  }
+}
+
+.btn-left {
+  transform: rotateY(180deg);
+}
+
+.slider__main-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.name-slider {
+  position: absolute;
+  color: white;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.number-slider {
+  position: absolute;
+  color: white;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+}
+
+.circles {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 20px;
+  background-color: rgb(228, 228, 228);
+}
+
+.circle-active {
+  background-color: rgb(112, 112, 112);
+}
+
+.a__pag {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
